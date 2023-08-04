@@ -1,0 +1,78 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: SansB;
+    src: url(Font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: SansR;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: SansS;
+    src: url(Font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: PoppinsR;
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsS;
+    src: url(Font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(Font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoM;
+    src: url(Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoR;
+    src: url(Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoS;
+    src: url(Font/RobotoMono-SemiBold.ttf);
+}
+
+.sorteio{ text-align: center; font: 900 80px 'RobotoS'; background-color: rgb(0, 255, 34);
+}
+
+.entradas, .min, .max{
+    display: flex; padding-left: 585px; padding-top: 200px; font-size: 42px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; height: 200px; color: white; width: 200px;
+}
+#resultado{
+    padding-left: 730px; font-size: 40px; margin-top: -150px; color: rgb(255, 255, 255);
+}
+
+#sortear{
+font: 400 40px 'SansS'; margin-left: 620px; margin-top: -220px; color: rgb(0, 0, 0); width: 250px; height: 100px; background-color: rgb(0, 255, 34);
+}
+.max,.min{
+    background-color:rgb(109, 109, 109); color: white;
+}
